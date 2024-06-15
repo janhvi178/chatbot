@@ -1,0 +1,44 @@
+.chatbot {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.chatbot-output {
+    padding: 10px;
+}
+
+.chatbot-output p {
+    margin: 0;
+}
+
+.chatbot-output p:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.chatbot-input {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.chatbot-input input {
+    flex: 1;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.chatbot-input input:focus {
+    outline: none;
+}
+
+.chatbot-input input::placeholder {
+    color: #999;
+}
